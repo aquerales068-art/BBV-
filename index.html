@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#8b1024">
+  <title>Banco Demo | Inicio</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="brand">
+      <div class="logo">B</div>
+      <div>
+        <h2>Banco Demo</h2>
+        <small>ENTORNO DE DEMOSTRACIÓN</small>
+      </div>
+    </div>
+    <span class="demo-tag">DEMO</span>
+  </header>
+
+  <main class="container">
+    <section class="welcome">
+      <p>ENTORNO DE PRUEBA</p>
+      <h1>¡Bienvenido!</h1>
+      <span>Explora nuestra interfaz bancaria de ejemplo.</span>
+    </section>
+
+    <section class="balance">
+      <span>Saldo ficticio disponible</span>
+      <h2>$ 2.500,00</h2>
+      <small>MONEDA DE DEMOSTRACIÓN</small>
+    </section>
+
+    <h3>Operaciones</h3>
+
+    <section class="operations">
+      <button onclick="showMessage('Transferencias')">
+        <span>↗</span>
+        Transferencias
+      </button>
+
+      <button onclick="showMessage('Pagos')">
+        <span>▣</span>
+        Pagos
+      </button>
+
+      <button onclick="showMessage('Consultas')">
+        <span>◉</span>
+        Consultas
+      </button>
+
+      <button onclick="showMessage('Servicios')">
+        <span>⌂</span>
+        Servicios
+      </button>
+    </section>
+
+    <section class="notice">
+      <strong>Información</strong>
+      <p>Esta es una demostración visual. No está conectada a ningún banco ni procesa operaciones reales.</p>
+    </section>
+  </main>
+
+  <footer>
+    Banco Demo · Entorno ficticio
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

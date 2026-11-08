@@ -1,0 +1,160 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f5f7;
+  color: #292929;
+}
+
+.header {
+  background: #8b1024;
+  color: white;
+  padding: 20px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand h2 {
+  font-size: 20px;
+}
+
+.brand small {
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+  border: 2px solid white;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.demo-tag {
+  border: 1px solid white;
+  padding: 7px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+}
+
+.container {
+  width: 90%;
+  max-width: 850px;
+  margin: 35px auto;
+}
+
+.welcome {
+  margin-bottom: 25px;
+}
+
+.welcome p {
+  color: #8b1024;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.welcome h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.welcome span {
+  color: #777;
+}
+
+.balance {
+  background: #8b1024;
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.balance h2 {
+  font-size: 32px;
+  margin: 12px 0;
+}
+
+.balance small {
+  opacity: .7;
+  font-size: 10px;
+}
+
+.operations {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 18px;
+}
+
+.operations button {
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 22px;
+  text-align: left;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.operations button span {
+  display: block;
+  color: #8b1024;
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.notice {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 25px;
+  line-height: 1.6;
+}
+
+.notice p {
+  color: #777;
+  font-size: 13px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #888;
+  font-size: 12px;
+}
+
+@media (max-width: 500px) {
+  .header {
+    padding: 16px 5%;
+  }
+
+  .container {
+    margin-top: 25px;
+  }
+
+  .welcome h1 {
+    font-size: 25px;
+  }
+
+  .balance h2 {
+    font-size: 27px;
+  }
+}
